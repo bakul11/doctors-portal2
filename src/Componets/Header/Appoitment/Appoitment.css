@@ -1,0 +1,27 @@
+.appoiment-section{
+    background-image: url('../../../images/appointment-bg.png');
+    background-size:center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 999;
+    padding: 0px 80px;
+    margin-top: 150px;
+  
+}
+.appoiment-section::before{
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(58, 66, 86,.9);
+    z-index: -999;
+}
+
+
+@media(max-width : 991px){
+    .appointment-thumbnail{
+        display: none;
+    }
+}

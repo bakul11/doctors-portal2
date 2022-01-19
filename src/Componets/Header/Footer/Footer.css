@@ -1,0 +1,19 @@
+.footer-section{
+    background-image: url('../../../images/footer-bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 150px;
+    padding: 0px 100px;
+}
+.footer-items ul li a{
+    margin-top: 20px;
+    display: block;
+    font-weight: 500;
+    color: gray;
+    text-transform: capitalize;
+}
+
+
+.footer-social li a{
+    color: #000;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import './NavBar.css'
 import { Link } from "react-router-dom";
 
 const NavBar = () => {
@@ -11,23 +12,23 @@ const NavBar = () => {
                 <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                     <ul class="navbar-nav">
                         <li class="nav-item">
-                            <Link class="nav-link me-5 text-capitalize active" aria-current="page" to="/">Home</Link>
+                            <Link class="nav-link me-5 text-capitalize active nobody" aria-current="page" to="/">Home</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link me-5 text-dark text-capitalize" to="/about">about us</Link>
+                            <Link class="nav-link me-5 text-dark text-capitalize nobaby" to="/about">about us</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link me-5 text-dark text-capitalize" to="/service">services</Link>
+                            <Link class="nav-link me-5 text-dark text-capitalize nobaby" to="/service">services</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link me-5 text-light text-capitalize" to="/review">Review</Link>
+                            <Link class="nav-link me-5 text-light text-capitalize nobaby" to="/review">Review</Link>
                         </li>
 
                         <li class="nav-item">
-                            <Link class="nav-link me-5 text-light text-capitalize" to="/blog">blog</Link>
+                            <Link class="nav-link me-5 text-light text-capitalize nobaby" to="/blog">blog</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link me-5 text-light text-capitalize" to="/contact">contact us</Link>
+                            <Link class="nav-link me-5 text-light text-capitalize nobaby" to="/contact">contact us</Link>
                         </li>
                     </ul>
                 </div>

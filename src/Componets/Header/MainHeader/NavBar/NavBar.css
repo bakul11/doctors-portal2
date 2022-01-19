@@ -1,0 +1,30 @@
+@media(max-width : 991px){
+   .nav-item .nobaby{
+       color: #000;
+   }
+  .text-light {
+    color: #0f1113!important;
+}
+}
+
+@media(max-width : 526px){
+   .nav-item .nobaby{
+        color: #f8fafc!important;
+   }
+  .text-light {
+    color: #f8fafc!important;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show>.nav-link {
+    color: rgb(252 248 248 / 90%);
+}
+}
+
+
+@media(max-width : 417px){
+   .nav-item .nobaby{
+       color: #000;
+   }
+  .text-light {
+    color: #0f1113!important;
+}
+}

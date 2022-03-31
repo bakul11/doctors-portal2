@@ -21,14 +21,14 @@ const NavBar = () => {
                             <Link class="nav-link me-5 text-dark text-capitalize nobaby" to="/service">services</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link me-5 text-light text-capitalize nobaby" to="/review">Review</Link>
+                            <Link class="nav-link me-5 text-light text-capitalize nobaby" to="/appintment">Appointment</Link>
                         </li>
 
                         <li class="nav-item">
-                            <Link class="nav-link me-5 text-light text-capitalize nobaby" to="/blog">blog</Link>
+                            <Link class="nav-link me-5 text-light text-capitalize nobaby" to="/login">Login</Link>
                         </li>
                         <li class="nav-item">
-                            <Link class="nav-link me-5 text-light text-capitalize nobaby" to="/contact">contact us</Link>
+                            <Link class="nav-link me-5 text-light text-capitalize nobaby" to="/dashboard/appointment">dashboard</Link>
                         </li>
                     </ul>
                 </div>
